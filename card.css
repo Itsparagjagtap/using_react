@@ -1,0 +1,205 @@
+
+.main{
+    border: 10px solid rgb(198, 162, 238);
+    width: 300px;
+    margin-left: 500px;
+    height: 400px;
+  
+    margin-top: 100px;
+    border-radius: 5px;
+}
+
+
+
+#heading{
+    border: 4px solid rgb(147, 30, 214); 
+    /* margin-top: 30px; */
+    /* margin-right: 20px; */
+    /* margin-left: 2px; */
+    margin-block: 0.01px;
+    width: 292px;
+    color: black;
+    text-align: center;
+    background-color: rgb(131, 236, 236);
+    
+    }
+
+
+.container{
+   border: 10px solid rgb(117, 155, 56);
+   color: white;
+    width: 270px;
+    height: 330px;
+    /* margin: 1px; */
+    padding: 5px;
+    /* margin-top: 10px; */
+   
+   
+    background-color:rgb(34, 59, 53);
+    /* margin-left: 8px; */
+}
+
+
+
+
+
+
+.con{
+    
+    font-size: 17px;
+    /* margin-top: 1px; */
+    padding-top: 1px;
+    
+    
+}
+
+
+#photo{
+  
+    margin-left: 140px;
+   display: flex;
+  
+    display: inline-block;
+}
+
+
+
+
+
+
+#Name{
+    margin: 2px;
+    margin-left: 23px;
+    border-radius: 6px;
+}
+
+#Password{
+    margin: 2px;
+    border-radius: 6px;
+
+}
+#Email{
+    margin: 2px;
+    margin-left: 23px;
+    border-radius: 6px;
+}
+#Address{
+    margin: 2px;
+    margin-left: 9px;
+    border-radius: 6px;
+}
+
+#Contact{
+    margin: 2px;
+    margin-left: 11px;
+    border-radius: 6px;
+}
+
+#Gender{
+    margin: 2px;
+    margin-left: 14px;
+}
+
+#City{
+    margin: 2px;
+    margin-left: 33px;
+    border-radius: 6px;
+}
+
+#day{
+    margin: 2px;
+    margin-left: 30px;
+    width: 53px;
+    border-radius: 6px;
+}
+
+#month{
+    margin: 2px;
+    margin-left: 1px;
+    width: 60px;
+    border-radius: 6px;
+}
+
+#year{
+    border-radius: 6px;
+}
+
+#vehicle1{
+    margin-left: 10px;
+    width: 30px;
+    /* display: inline-block; */
+    
+
+}
+
+
+ #vehicle2{
+    margin-left: 104px;
+    display: inline-block;
+ }
+#Submit{
+    margin:10px 90px;
+    width: 80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', Arial, Helvetica, Impact, Haettenschweiler, 'Arial Narrow Bold', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: medium;
+    border-radius: 6px;
+    
+}
+
+
+
+
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+ 
+ 
+@media only screen and (max-width: 1080px) {
+    .main {
+     margin-left:500px ;
+    }
+
+  }
+
+   
+@media only screen and (min-width: 700px) {
+    .main {
+     margin-left:500px ;
+     margin-top: 140px;
+    }
+
+    .container{
+        margin-left: 0.1px;
+    }
+  }
+
+  /* .main:hover {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    transform: rotateY(180deg);
+  } */
